@@ -43,7 +43,7 @@ CREATE TABLE public._category (
 );
 
 
-ALTER TABLE public._category OWNER TO rebasedata;
+ALTER TABLE public._category ;
 
 --
 -- Name: _order_details; Type: TABLE; Schema: public; Owner: rebasedata
@@ -57,7 +57,7 @@ CREATE TABLE public._order_details (
 );
 
 
-ALTER TABLE public._order_details OWNER TO rebasedata;
+ALTER TABLE public._order_details ;
 
 --
 -- Name: _orders; Type: TABLE; Schema: public; Owner: rebasedata
@@ -69,7 +69,7 @@ CREATE TABLE public._orders (
 );
 
 
-ALTER TABLE public._orders OWNER TO rebasedata;
+ALTER TABLE public._orders ;
 
 --
 -- Name: _pizza; Type: TABLE; Schema: public; Owner: rebasedata
@@ -83,7 +83,7 @@ CREATE TABLE public._pizza (
 );
 
 
-ALTER TABLE public._pizza OWNER TO rebasedata;
+ALTER TABLE public._pizza ;
 
 --
 -- Name: _pizza_size; Type: TABLE; Schema: public; Owner: rebasedata
@@ -97,7 +97,7 @@ CREATE TABLE public._pizza_size (
 );
 
 
-ALTER TABLE public._pizza_size OWNER TO rebasedata;
+ALTER TABLE public._pizza_size ;
 
 --
 -- Name: _size; Type: TABLE; Schema: public; Owner: rebasedata
@@ -109,7 +109,7 @@ CREATE TABLE public._size (
 );
 
 
-ALTER TABLE public._size OWNER TO rebasedata;
+ALTER TABLE public._size ;
 
 --
 -- Name: _sqlite_sequence; Type: TABLE; Schema: public; Owner: rebasedata
@@ -121,7 +121,7 @@ CREATE TABLE public._sqlite_sequence (
 );
 
 
-ALTER TABLE public._sqlite_sequence OWNER TO rebasedata;
+ALTER TABLE public._sqlite_sequence ;
 
 --
 -- Data for Name: _category; Type: TABLE DATA; Schema: public; Owner: rebasedata
