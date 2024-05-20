@@ -34,7 +34,7 @@ SET default_tablespace = '';
 SET default_with_oids = false;
 
 --
--- Name: _category; Type: TABLE; Schema: public; Owner: rebasedata
+-- Name: _category; Type: TABLE; Schema: public; 
 --
 
 CREATE TABLE public._category (
@@ -46,7 +46,7 @@ CREATE TABLE public._category (
 ALTER TABLE public._category ;
 
 --
--- Name: _order_details; Type: TABLE; Schema: public; Owner: rebasedata
+-- Name: _order_details; Type: TABLE; Schema: public; 
 --
 
 CREATE TABLE public._order_details (
@@ -60,7 +60,7 @@ CREATE TABLE public._order_details (
 ALTER TABLE public._order_details ;
 
 --
--- Name: _orders; Type: TABLE; Schema: public; Owner: rebasedata
+-- Name: _orders; Type: TABLE; Schema: public; 
 --
 
 CREATE TABLE public._orders (
@@ -72,7 +72,7 @@ CREATE TABLE public._orders (
 ALTER TABLE public._orders ;
 
 --
--- Name: _pizza; Type: TABLE; Schema: public; Owner: rebasedata
+-- Name: _pizza; Type: TABLE; Schema: public; 
 --
 
 CREATE TABLE public._pizza (
@@ -86,7 +86,7 @@ CREATE TABLE public._pizza (
 ALTER TABLE public._pizza ;
 
 --
--- Name: _pizza_size; Type: TABLE; Schema: public; Owner: rebasedata
+-- Name: _pizza_size; Type: TABLE; Schema: public; 
 --
 
 CREATE TABLE public._pizza_size (
@@ -100,7 +100,7 @@ CREATE TABLE public._pizza_size (
 ALTER TABLE public._pizza_size ;
 
 --
--- Name: _size; Type: TABLE; Schema: public; Owner: rebasedata
+-- Name: _size; Type: TABLE; Schema: public; 
 --
 
 CREATE TABLE public._size (
@@ -112,7 +112,7 @@ CREATE TABLE public._size (
 ALTER TABLE public._size ;
 
 --
--- Name: _sqlite_sequence; Type: TABLE; Schema: public; Owner: rebasedata
+-- Name: _sqlite_sequence; Type: TABLE; Schema: public; 
 --
 
 CREATE TABLE public._sqlite_sequence (
@@ -124,7 +124,7 @@ CREATE TABLE public._sqlite_sequence (
 ALTER TABLE public._sqlite_sequence ;
 
 --
--- Data for Name: _category; Type: TABLE DATA; Schema: public; Owner: rebasedata
+-- Data for Name: _category; Type: TABLE DATA; Schema: public; 
 --
 
 COPY public._category (category_id, category_name) FROM stdin;
@@ -136,7 +136,7 @@ COPY public._category (category_id, category_name) FROM stdin;
 
 
 --
--- Data for Name: _order_details; Type: TABLE DATA; Schema: public; Owner: rebasedata
+-- Data for Name: _order_details; Type: TABLE DATA; Schema: public; 
 --
 
 COPY public._order_details (order_details_id, order_id, pizza_size_id, quantity) FROM stdin;
@@ -48764,7 +48764,7 @@ COPY public._order_details (order_details_id, order_id, pizza_size_id, quantity)
 
 
 --
--- Data for Name: _orders; Type: TABLE DATA; Schema: public; Owner: rebasedata
+-- Data for Name: _orders; Type: TABLE DATA; Schema: public; 
 --
 
 COPY public._orders (order_id, order_datetime) FROM stdin;
@@ -70122,7 +70122,7 @@ COPY public._orders (order_id, order_datetime) FROM stdin;
 
 
 --
--- Data for Name: _pizza; Type: TABLE DATA; Schema: public; Owner: rebasedata
+-- Data for Name: _pizza; Type: TABLE DATA; Schema: public; 
 --
 
 COPY public._pizza (pizza_id, pizza_name, pizza_ingredients, category_id) FROM stdin;
@@ -70162,7 +70162,7 @@ COPY public._pizza (pizza_id, pizza_name, pizza_ingredients, category_id) FROM s
 
 
 --
--- Data for Name: _pizza_size; Type: TABLE DATA; Schema: public; Owner: rebasedata
+-- Data for Name: _pizza_size; Type: TABLE DATA; Schema: public; 
 --
 
 COPY public._pizza_size (pizza_size_id, pizza_id, size_id, unit_price) FROM stdin;
@@ -70261,7 +70261,7 @@ the_greek_xxl	9	5	35.95
 
 
 --
--- Data for Name: _size; Type: TABLE DATA; Schema: public; Owner: rebasedata
+-- Data for Name: _size; Type: TABLE DATA; Schema: public; 
 --
 
 COPY public._size (size_id, size_name) FROM stdin;
@@ -70274,7 +70274,7 @@ COPY public._size (size_id, size_name) FROM stdin;
 
 
 --
--- Data for Name: _sqlite_sequence; Type: TABLE DATA; Schema: public; Owner: rebasedata
+-- Data for Name: _sqlite_sequence; Type: TABLE DATA; Schema: public; 
 --
 
 COPY public._sqlite_sequence (name, seq) FROM stdin;
